@@ -13,7 +13,7 @@ export default function Section1(){
 
            <div className="w-[95%] mx-auto flex pt-10 xl:w-[85%]  flex-col xl:flex-row  ">
                <div className="paragraph xl:w-3/5  w-full p-5 xl:p-0  "> 
-                    <h1 className="text-3xl font-bold  italic  mt-5 " >
+                    <h1 className="xl:text-3xl  md:text-2xl text-xl  font-bold  italic  mt-5 " >
                     Explore your <span  className="text-blue-300">hobby</span>  or <span className='text-purple-900'>passion</span>
                     </h1>
 
@@ -76,7 +76,7 @@ export default function Section1(){
 
                         </div>
 
-                        <div className="text-center font-bold text-xl mt-10  ">
+                        <div className="text-center font-bold text-base  md:text-xl mt-10  ">
                         Or connect with 
                         </div>
 
@@ -106,7 +106,7 @@ export default function Section1(){
 
                 <div className="flex space-x-2 items-center"> 
                     <FaLock className="text-gray-400"/>
-                    <div>
+                    <div  className="xl:text-base text-sm" >
 
                         Forgot Password ?
                     </div>
@@ -119,7 +119,7 @@ export default function Section1(){
                 }
 
                 {issignin && 
-                  <button type="submit" className=" text-white bg-purple-900  xl:text-black  xl:bg-transparent focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full  px-5 py-2.5 text-center        dark:focus:ring-purple-800 border border-black">Continue</button>
+                  <button type="submit" className=" transition-all text-white bg-purple-900  xl:text-black  xl:bg-transparent focus:ring-4 focus:outline-none focus:ring-blue-300  hover:bg-purple-800 hover:text-white  font-medium rounded-lg text-sm w-full  px-5 py-2.5 text-center        dark:focus:ring-purple-800 border border-black">Continue</button>
                 
                 }
                 {!issignin && 
@@ -133,7 +133,7 @@ export default function Section1(){
 
                 {!issignin && 
                 
-                <button type="submit" className="text-white  bg-purple-900 text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full  px-5 py-2.5 text-center        dark:focus:ring-blue-800 border border-black">Agree and Continue</button>
+                <button type="submit" className="text-white transition-all	 hover:bg-transparent hover:text-black  bg-purple-900 text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full  px-5 py-2.5 text-center        dark:focus:ring-blue-800 border border-black">Agree and Continue</button>
                 }
               
                 </form>

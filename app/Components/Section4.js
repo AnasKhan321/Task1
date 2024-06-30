@@ -15,10 +15,10 @@ export default function Section4(){
                     </p>
 
 
-                    <div className="flex items-center mt-10  xl:flex-row flex-col-reverse  justify-between">
+                    <div className="flex items-center mt-10  xl:flex-row flex-col-reverse space-y-5  xl:space-y-0  justify-between">
                         
                         
-                        <img src="/AudioTrack.png" alt="" srcSet="" />
+                        <img src="/AudioTrack.png" alt="" srcSet="" className="xl:mt-0 mt-10" />
                         <img src="/Group108.png" alt="" srcSet="" />    
                     </div> 
                     

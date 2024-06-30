@@ -5,13 +5,13 @@ import { FaCalendarCheck } from "react-icons/fa";
 export default function Section2(){
 
     return(
-        <div className="xl:w-[85%] w-[95%] mx-auto mt-10  justify-between  xl:space-y-5 space-y-10  flex flex-wrap "> 
+        <div className="xl:w-[85%] w-[95%] mx-auto mt-10 justify-center  xl:justify-between  xl:space-y-5 space-y-10  flex flex-wrap "> 
             
-                <div  className="item  border  rounded-lg  cursor-pointer   border-purple-900  flex flex-col justify-center xl:items-start items-center    w-[90%]  xl:w-[45%] p-6 space-y-10  " > 
+                <div  className="item transition-all   border hover:bg-purple-900 hover:text-white  rounded-lg  cursor-pointer   border-purple-900  flex flex-col justify-center xl:items-start items-center    w-[90%]  xl:w-[45%] p-6 space-y-10  " > 
                     
                     
                     <div className="flex  space-x-5 items-center  " >
-                        <FaPeopleGroup className="w-[32px] h-[32px] text-purple-800 " /> 
+                        <FaPeopleGroup className="w-[32px] h-[32px]  " /> 
                         <h2 className="text-3xl font-bold ">People </h2>
 
                     </div>
@@ -25,7 +25,7 @@ export default function Section2(){
                     
                     <div>
 
-                        <button className="text-purple-800 border-purple-900 border-2 px-4 py-1 rounded-lg ">
+                        <button className="text-purple-800 xl:block hidden  transition-all hover:bg-purple-800 hover:text-white  border-purple-900 border-2 px-4 py-1 rounded-lg ">
                             Connect
                         </button>
 
@@ -35,7 +35,7 @@ export default function Section2(){
 
 
  
-                <div  className="item  border-green-900  rounded-lg cursor-pointer   flex flex-col justify-center xl:items-start items-center        w-[90%]  xl:w-[45%]  border  p-6 space-y-5 " > 
+                <div  className="item  transition-all  hover:bg-green-900 hover:text-white   border-green-900  rounded-lg cursor-pointer   flex flex-col justify-center xl:items-start items-center        w-[90%]  xl:w-[45%]  border  p-6 space-y-10 " > 
                     
                     
                     <div className="flex  space-x-5 items-center  " >
@@ -53,7 +53,7 @@ export default function Section2(){
                     
                     <div>
 
-                        <button className="text-purple-800  border-purple-900 border-2 px-4 py-1 rounded-lg ">
+                        <button className="text-purple-800  transition-all	 hover:bg-purple-800 hover:text-white   border-purple-900 border-2 px-4 py-1 rounded-lg ">
                             Meet Up
                         </button>
 
@@ -64,7 +64,7 @@ export default function Section2(){
 
 
 
-                <div  className="item mt-5 border-red-900  cursor-pointer   rounded-lg  w-[90%]   flex flex-col justify-center xl:items-start items-center   xl:w-[45%]  border  p-6 space-y-5 " > 
+                <div  className="item mt-5 border-red-900     transition-all  hover:bg-red-900 hover:text-white   cursor-pointer   rounded-lg  w-[90%]   flex flex-col justify-center xl:items-start items-center   xl:w-[45%]  border  p-6 space-y-10 " > 
                     
                     
                     <div className="flex  space-x-5 items-center  " >
@@ -82,7 +82,7 @@ export default function Section2(){
                     
                     <div>
 
-                        <button className="text-purple-800 border-purple-900 border-2 px-4 py-1 rounded-lg ">
+                        <button className="text-purple-800   transition-all	 hover:bg-purple-800 hover:text-white  border-purple-900 border-2 px-4 py-1 rounded-lg ">
                             Get it 
                         </button>
 
@@ -93,7 +93,7 @@ export default function Section2(){
 
 
 
-                <div  className="item  w-[90%] border-blue-900  rounded-lg  flex flex-col justify-center xl:items-start items-center    cursor-pointer  xl:w-[45%]  mt-5  border  p-6 space-y-5 " > 
+                <div  className="item  w-[90%] border-blue-900   transition-all  hover:bg-blue-900 hover:text-white   rounded-lg  flex flex-col justify-center xl:items-start items-center    cursor-pointer  xl:w-[45%]  mt-5  border  p-6  space-y-10  " > 
                     
                     
                     <div className="flex  space-x-5 items-center  " >
@@ -111,7 +111,7 @@ export default function Section2(){
                     
                     <div>
 
-                        <button className="text-purple-800 border-purple-900 border-2 px-4 py-1 rounded-lg ">
+                        <button className="text-purple-800   transition-all	 hover:bg-purple-800 hover:text-white  border-purple-900 border-2 px-4 py-1 rounded-lg ">
                             Attend
                         </button>
 

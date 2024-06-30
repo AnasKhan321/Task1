@@ -58,7 +58,7 @@ const Navbar = () => {
                 
                 </div>
 
-                <button className="border-purple-300 border-[1px] px-3 py-1 text-white font-bold rounded-lg xl:text-purple-800">
+                <button className="border-purple-300 border-[1px]  transition-all	 hover:bg-purple-800 hover:text-white  px-3 py-1 text-white font-bold rounded-lg xl:text-purple-800">
                     Sign in
                 </button>
 

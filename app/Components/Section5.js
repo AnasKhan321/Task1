@@ -10,7 +10,7 @@ export default function  Section5() {
                         
                     </h2>    
 
-                    <button type="button" className="bg-purple-900  mt-10   px-4 py-1 text-white rounded-md" >
+                    <button type="button" className="bg-purple-900  transition-all	  hover:bg-transparent  hover:text-purple-900   mt-10   px-4 py-1 text-white rounded-md border-purple-900 border  " >
                         Get Started
                     </button>
 
